@@ -4,5 +4,15 @@
   "description": "Learn Gulp by building an awesome development environment",
   "main": "index.js",
   "author": "Sangseok Doe",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.4"
+  }
 }

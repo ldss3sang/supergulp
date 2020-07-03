@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Learn Gulp by building an awesome development environment",
   "main": "index.js",
+  "repository": "https://github.com/ldss3sang/supergulp",
   "author": "Sangseok Doe",
   "license": "MIT",
   "scripts": {
@@ -27,5 +28,8 @@
     "gulp-webserver": "^0.9.1",
     "node-sass": "^4.14.1",
     "uglifyify": "^5.0.2"
+  },
+  "resolutions": {
+    "gift": "^0.10.2"
   }
 }
